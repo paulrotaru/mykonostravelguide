@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MYKONOS TRAVEL GUIDE</string>
+    <string name="mykonos_fragment">WELCOME TO MYKONOS</string>
+    <string name="save_money_fragment">SAVE MONEY</string>
+    <string name="sleep_and_eat">SLEEP AND EAT</string>
+    <string name="what_to_do">WHAT TO DO</string>
+</resources>

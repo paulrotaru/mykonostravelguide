@@ -1,0 +1,117 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wordpress.smartadviceltd.mykonostravelguide.mykonos">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:singleLine="false"
+
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp"
+
+
+            >
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/mikonos_1"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/primul"
+                android:singleLine="false"
+                android:text="   One of the top destinations in Greece, this island is famous for the vivid nightlife and the gorgeous beaches. Geographically located on the northern side of the Cyclades, almost in the centre of the Aegean Sea, Mykonos is the ultimate holiday place for all ages and preferences, especially for youth looking for all day and night entertainment."
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:layout_marginBottom="16dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/mikonos2"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="   This is the Ibiza of Greece. A beautiful island in the Cyclades, which looks just like the postcards: white little houses with flowers and blue windows and doors, hand painted streets, windmills, pigeon keepers, chimneys, lots of little churches and wonderful restaurants and cafes.
+ \n Many private yachts and cruises also arrive in Mykonos Greece almost daily in summer, creating a cosmopolitan atmosphere.
+ "
+                android:layout_marginBottom="16dp"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/mikonos3"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  To reach Mykonos you have two options: by plane or by boat!
+\n   Mykonos can be reached from most international airports via Athens with Aegean airways and Ryanair.. Nearly all international scheduled flights arriving in Athens allow adequate time for making the connecting flight to Santorini.
+\n   Numerous charter flights from different European Cities fly directly to the island during the summer period. During the same period Mykonos is also connected with flights to and from Thessaloniki and Heraklion.
+\n   Another way to reach the island is by a daily year round ferry boat service from the port of Piraeus and almost all the Cycladic islands during summer . The boat trip takes approximately 5-6 hours depending on the ferry and the ports of call.
+\n   Daily high speed boats are also available only during the summer period leaving from the port of Piraeus (the trip lasts about 3hours) and from numerous other Cycladic islands and Crete.
+ "
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:layout_marginBottom="16dp"/>
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/mykonos_port"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLines="20"
+                android:text="  Once you are in Mykonos, you’re wondering how do you get from the Mykonos airport or port to the rest of the island?
+\n  The easiest and quickest way (but not the cheaper one) to get into the island is by taxi.
+\n  Another option is take the bus.
+\n  Also, many hotels provide transportation from the port to their hotel. For some it’s free, for others it’s charged at a rate similar to a taxi or a bit more. Don’t bother pre-arranging pickup months in advance (when you book your hotel). Send an email to your hotel a few days before so the pickup details are fresh in their minds.
+"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:layout_marginBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/mykonos_transfer"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+</FrameLayout>

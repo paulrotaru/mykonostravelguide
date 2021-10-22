@@ -1,0 +1,126 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wordpress.smartadviceltd.mykonostravelguide.what_to_do">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="   Once you are in Mykonos, there are some things you must to do: visit Mykonos Town, a tour of the island, a wine trip and, of course, one or more days to the beach! One day must visit the island of Delos."
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:layout_marginBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/mykonos_town"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:text=" If you choose a tour of Mykonos, spend a full day discovering Mykonos’s ancient history, local culture, and famous views on this great-value highlights tour. Don’t forget to visit the Archaeological, Folklore and Maritime Museums to take in a little history. Wander around the pedestrian shopping streets of the Hóra, always colourful and busy. The most glamorous of all is Matoyánni Street, lined with brand name stores, charming cafés and stylish restaurants., swim at the  Platy Gialos  beach, and observe traditional island life in the village of Ano Mera. " />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/mykonos_museum"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:text="  One of the most scenic corners of the island is Alefkántra or Little Venice, an 18th century district, dominated by grand captains’ mansions with colourful balconies and stylish windows. With balconies perched over the sea, pictures of the famous Italian city spring to mind. Relax at a waterfront café and admire the view of the quaint windmills standing imposingly on the hillside above, set against a luminous blue backdrop."/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/little_venice"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:text="  A fun island attraction is Pétros the Pelican who was found by a fisherman after a storm in 1954, and eventually became the locals’ companion. When he died, the grief for his loss was so deep that a replacement was soon found. In honour of Pétros, the locals have established a long tradition of pelicans wandering around the waterfront as an essential part of everyday life. So, whatever you do, don’t forget to take a picture with the successor of the famous pelican Pétros!"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/petros"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" The beaches are generally very busy. It is worth exploring the little bays on the south side. Platy Gialos and Elia are very popular beaches. Further from Platis Gialos are the famous nude beaches of Paraga, Paradise and Super Paradise, you can go there with boats that departing from Platys Gialos. Other beaches are in Agios Stefanos in the north, Kalafatis beach recommended for the lovers of wind surfing. Ornos beach, Agios Giannis, Agrari, all of those beaches and more that you can explore have made the island of Mykonos the most visited island of Greece."
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:layout_marginBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/platis_gialo"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:text="  The popular beaches have beach bars with music, umbrellas and beach beds and during the summer the kind of events you might associate with Daytona Beach during spring break."/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/party_beach"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:text="  About the nightlife, most of the bars and clubs are in Mykonos Chora. They are quite stylish and the prices can sometimes be outrageous. There are also beach parties going on all through the summer so keep a lookout for advertising posters. For the Greek Music fans (Ellinadika) among the most popular is the Thalami next to the town hall and the Mykonos Bar. The Giuzel 9 Muses at the east side of Akti Kambani and the Argo bar at the square of Manto. At the Three Wells you will find the famous Aegli one of the hot spots of Mykonos nightlife and on the other side of the road the Asteria bar and the Coo restaurant bar. "
+                android:textAppearance="@android:style/TextAppearance.Medium"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cavo_paradiso"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
+

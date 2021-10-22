@@ -1,0 +1,112 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wordpress.smartadviceltd.mykonostravelguide.sleep_and_eat">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  Mykonos offers a wide variety of quality hotels, unique hotel apartments and elegant suite hotels. Besides the style and character of authentic island architecture, most of the accommodations on Mykonos are well organized with every modern convenience to meet the requirements of today’s travelers. Mykonos offers many accommodation proposals that meet any budget."
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:layout_marginBottom="16dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/mykonos_hotels"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  Mykonos has hotels of all kinds to satisfy every need, as this is the most cosmopolitan island of Cyclades. These venues are scattered all over the western side of the island, but most of them are found around the Town. "
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:layout_marginBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/hotel_adonis"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  Numerous luxurious suites, spa resorts and boutique hotels are also found in Agios Stefanos, Agios Ioannis and other beaches close to the town. In these luxurious hotels, you can enjoy infinity pools, massages, open jacuzzi and other upscale facilities. Accommodation is also available in the popular beaches of Paradise, Super Paradise, and Platis Gialos to spend your Mykonos holidays by the sea. In these lively areas, modern villas and romantic resorts are found side by side to budget hotels, apartments and studios with simple facilities.
+"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:layout_marginBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/mikonos_hotel"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  As this is among the top holiday destinations in Greece, places to eat and drink in Mykonos are many and spread all around the island, both in tourist and secluded spots. Most Mykonos places to eat and drink are found in Mykonos Town, the capital of the island, that gets very busy after sunset when most people head to the town for a fun night out. "
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:layout_marginBottom="16dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/mykonos_eat"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  Restaurants in Mykonos are found in the paved streets of the town and along the beaches. Except for the super remote beaches on the island, all the other coasts are lined up with restaurants, taverns and beach cafe. Some beaches, like Super Paradise, Paradise, Psarou and Paranga, have beach bars with parties and dancing all day long. Most clubs in Mykonos are found in the Town, while very famous is Cavo Paradiso at Paradise beach. "
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:layout_marginBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/mikonos_eat2"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  Don’t miss the opportunity to treat yourself to some local Aegean specialties! Pepper flavoured kopanistí, a soft cheese seasoned with pepper, is the island’s gastronomic trademark. Try it as a topping on a round rusk spread with grated tomato, a favourite local mezés (appetiser). Meat eaters can sample loúzes (cooked pork filet with spices) and tasty local sausages sprinkled with pepper, and local oregano that has been caressed by the sun and dried in the north wind. To finish off your meal you can sample two exceptionally good local pastries, amigdalotá (small round cakes with ground almond, rosewater and caster sugar) and honey pie."
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:layout_marginBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/mykonos_eat3"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</FrameLayout>

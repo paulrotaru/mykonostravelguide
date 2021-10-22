@@ -1,0 +1,88 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wordpress.smartadviceltd.mykonostravelguide.save_money">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  Accomodation
+\n Accommodation prices in the town are on the high end and the further you go from the town, the cheaper it is. There is a good bus system to get you to and from town.
+\n Tips
+\n You can find a room at a 2-star hotel for 50 EUR per night. Hotels at this price point include private bathrooms, air-conditioning, and free WiFi.Keep in mind prices shoot up in the summer!
+"
+                android:layout_marginBottom="16dp"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cheap_hotel"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  Eat
+   \n Many of the popular restaurants situated in breathtaking and romantic areas, are very expensive. If you want to save money, avoid eating in the main town.
+   \n Tips
+   \n To save money, stay away from places that are overtly commercial and go to the family run fish taverns located nearby the smaller beaches and communities.
+"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:layout_marginBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cheap_taverna"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  Things to do
+   \n The hill with the traditional windmills above Chora provides the best view of the village and the picturesque port. These windmills have been restored and have become the trademark of the island over the years."
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:layout_marginBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/mykonos_windmills"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  Tips
+   \n Take a gyros and go to the chapel of Panagia Paraportiani wich is the most photographed church of the island. Located in Chora, this white, assymetrical church dates from the 15th century. The view of the island is amazing!"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:layout_marginBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/mykonos_panagia"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>
+
